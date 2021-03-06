@@ -1,0 +1,262 @@
+                    /*
+                    ******************** Tag Name ********************
+                                                                        */
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;    
+}
+nav{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-end;    
+}    
+ul{
+    list-style-type: none;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    letter-spacing: 1px;    
+    margin: 0;   
+}  
+li{
+    font-size: 15px;
+    padding: 0px 20px 0px 20px;
+    color:rgb(51, 51, 51);
+    letter-spacing: 3px;
+    
+}
+h3{
+    font-size: 16px;
+    font-weight:bolder;
+    
+    color: rgb(51, 51, 51);
+}
+h4{
+    font-size: 12px;
+}
+img {
+    width:100%;
+    height:100%;
+        
+  }     
+
+
+  /*
+                        ******************** Header ********************
+                                                                        */
+
+
+/*********** Menu ***********/
+.shop{
+    border:#BA4A4A solid 1px;
+    color: #BA4A4A;   
+    background-color: white; 
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: lighter;
+    letter-spacing: 1px;    
+    display: flex;
+    align-items: flex-end;
+    
+}      
+#nav{
+    display: flex;
+    border-bottom: #BA4A4A solid 6px;
+    height:80px;
+    align-items: center;      
+}
+#logo{    
+    width: 200px;
+    height: 40px;
+    margin-left: 25px;    
+}
+                        /*
+                        ******************** Body ********************
+                                                                        */
+
+/*********** Background ***********/
+
+.ligne{
+    letter-spacing: 2px;
+}
+.text{    
+    background-image: url(./images/bakground.jpg);
+    margin: 0;
+    padding: 0;
+    background-size: cover ; 
+    width: 100%;
+    color: white;
+    height: 850px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-bottom: 80px;
+    padding-right:80px ;
+    font-size: 30px;        
+}
+.ligne:before{
+    content:'';
+    width:98px;
+    border-bottom: white solid;
+    display:inline-block;
+    vertical-align:middle;
+    margin-right: 10px;
+    letter-spacing: 2px;
+}
+
+/*********** L'esprit R'Guitar ***********/
+#blockUn{
+      display: flex;
+      justify-content: center;  
+      margin-top: 40px;    
+      margin-bottom: 40px;
+  }
+#photo{
+    padding-right: 40px;
+    
+    
+}
+
+#imgUne{
+    width: 100%;
+    padding: 0px 10px 10px 0;
+    height: 450px;
+}
+#imgTrois{
+    height: 280px;
+    width: 100%;
+    padding-left: 0;
+}
+#imgDeux{
+    
+    height: 450px;
+    width: 100%;
+    padding: 0px 0px 10px 0px;
+   
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    letter-spacing: 10px;
+    background-color:#BA4A4A ;    
+    color: white;
+    font-size: 20px;
+    height: 100px;  
+    margin: 0;
+    padding-left: 50px;
+}
+
+.after{
+    letter-spacing: 1px;
+}
+
+.before{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    letter-spacing: 1px;
+}
+
+.before:before{
+    content:'';
+    width:190px;
+    border-bottom:#BA4A4A solid 5px;
+    display:inline-block;
+    vertical-align:middle;
+    margin-right: 10px;
+}
+
+.after:after{
+    content:'';
+    width:171px;
+    border-bottom:#BA4A4A solid 5px;
+    display:inline-block;
+    vertical-align:middle;
+    margin-left: 10px;
+}
+
+.block{
+    display: flex;
+    flex-direction: column;    
+}
+.lorem{
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    word-spacing: 4px;
+    
+}
+
+/*********** Nos grattes ***********/
+#stock{
+    text-align: center;
+}
+
+#gratteUne{
+    padding-top: 100px;
+}
+
+
+#guitares{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;   
+    margin-bottom: 200px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.lastText{
+    display: inline-block;
+    margin: 0% 25% 0% 25%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+}  
+.titleDeux{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    letter-spacing: 10px;
+    background-color:#BA4A4A ;    
+    color: white;
+    font-size: 20px;
+    height: 100px;  
+    margin: 0;
+    padding-left: 50px;}
+
+.grattes{ 
+    width: 25%;
+    height: 300px;
+    
+    
+}
+
+.butonA{
+    background-color: #BA4A4A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 50%
+    
+
+}
+
+.acheter{    
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.guitareName{
+    font-weight:bold;
+
+}
+/*
+******************** Media Queries ********************
+*/
+
+
